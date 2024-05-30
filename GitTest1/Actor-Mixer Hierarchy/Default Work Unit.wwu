@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AB7F48E4-F65B-44A5-BB74-65151FE40015}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{AB7F48E4-F65B-44A5-BB74-65151FE40015}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="ambientTest" ID="{F283B0C6-DE9C-4E95-8CA6-41EAC713209B}" ShortID="730887226">
+					<PropertyList>
+						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+						<Property Name="Soundly:FileID" Type="string" Value="SND0174"/>
+						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1717093652Fe9axJsWkKaVZjIVGvU&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND0174/L2FwcGhvc3RpbmdfcHJvZC9ibG9icy9BRW5CMlVwQVdkMUJNYng4QnRUY1c0aHUxZXVUVnAxQk82VVhJVVdxY2c1TWdzZzRDbW43eDZRS1NiNGNiSmFjUGswcnRWbXlCNHVDbGNyS2ROMElmZWFSeGJKdUk1dUszZy44cjJ3QUxCSzhPVmo4MU1F"/>
+						<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:HandleStopTime" Type="string" Value="28.6"/>
+						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+						<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+						<Property Name="Soundly:RenderedFilePath" Type="string" Value="/Users/macintosh/Documents/Soundly Audio/Ambience, Park, Birds, Distant Walla, Light Traffic, Children 01 SND0174.wav"/>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:SelectionStopTime" Type="string" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E27C8210-BB15-4ACA-AE00-D4E03B518DBA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F116D3BC-DED7-440E-9AB2-A1EB13650791}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambience, Park, Birds, Distant Walla, Light Traffic, Children 01 SND0174" ID="{1890C138-5E54-4B7E-B2CC-CB0166FEA4F9}">
+							<PropertyList>
+								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND0174"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Ambience, Park, Birds, Distant Walla, Light Traffic, Children 01 SND0174.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="833257308"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambience, Park, Birds, Distant Walla, Light Traffic, Children 01 SND0174" ID="{1890C138-5E54-4B7E-B2CC-CB0166FEA4F9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
