@@ -1,0 +1,4 @@
+//Anotar tu nombre como si fuera una linea de codigo que imrpimir en la consola
+void start(){
+Debug.Log(Ali);
+}
